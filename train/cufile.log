@@ -1,0 +1,10 @@
+ 19-04-2024 17:21:38:326 [pid=90325 tid=90325] ERROR  0:140 unable to load,  liburcu-bp.so.6 
+
+ 19-04-2024 17:21:38:331 [pid=90325 tid=90325] ERROR  0:140 unable to load,  liburcu-bp.so.1 
+
+ 19-04-2024 17:21:38:331 [pid=90325 tid=90325] WARN   0:168 failed to open /proc/driver/nvidia-fs/devcount  error: No such file or directory
+ 19-04-2024 17:21:38:332 [pid=90325 tid=90325] NOTICE  cufio-drv:720 running in compatible mode
+ 19-04-2024 17:21:38:333 [pid=90325 tid=90325] ERROR  cufio-plat:98 cannot open path /sys/bus/pci/devices/0000:01:00.0/resource No such file or directory
+ 19-04-2024 17:21:38:333 [pid=90325 tid=90325] WARN   cufio-plat:427 GPU index 0 NVIDIA GeForce RTX 3080 Ti Laptop GPU: Model Not Supported
+ 19-04-2024 17:21:38:333 [pid=90325 tid=90325] WARN   cufio-udev:168 failed in udev device create: /sys/bus/pci/devices/0000:01:00.0
+ 19-04-2024 17:21:38:404 [pid=90325 tid=90325] ERROR  cufio-topo-udev:431 no device entries present in platform topology
